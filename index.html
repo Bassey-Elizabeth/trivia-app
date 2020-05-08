@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quiz app</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="start-page ">
+            <h1>LiZa's TrIvIa!</h1>
+            <button id="start-btn" class="start-btn btn hide">Get Started</button>
+        </div>
+
+        <div class="game-container hide">
+            <div class="score-tracker">
+                <div class="quest-num">1/5</div>
+                <div class="score">
+                    <span class="current-score">Score:</span>
+                   
+            </div>
+            </div>
+            <div class="question-container hide" >
+                <div id="question">Question</div> 
+                <div id="answer-btns" class="btn-grid">
+                    <button class="btn">Answer 1</button>
+                    <button class="btn">Answer 2</button>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="next-btn" class="next-btn btn hide">Next</button>
+            </div>
+        </div>
+        <div class="game-over hide">
+        <h4>Game Over!</h4>
+        <p class="total-score"></p>
+        <p class="remark"></p>
+        <button class="restart btn">Restart</button>
+        <button class="go-home btn">Go Home</button>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
